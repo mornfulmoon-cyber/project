@@ -1,0 +1,77 @@
+.menu-link{
+    font-family: "Poppings", Arial, sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252641;
+}
+.button_whitе{
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 60px;
+
+    padding: 0;
+    border: 0;
+    border-radius: 80px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: #6C6C6C;
+    cursor: pointer;
+}
+.button_orange{
+    background-color: #F48C06;
+    width: 160px;
+    height: 60px;
+
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 80px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button_orangeJoin{
+    background-color: #F48C06;
+    width: 220px;
+    height: 80px;
+
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 80px;
+
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main-text_big_orange{
+    font-family: "Poppings", Arial, sans-serif;
+    font-size: 54px;
+    line-height: 81px;
+    color: #F48C06;
+}
+.main-text_big_blue{
+    font-family: "Poppings", Arial, sans-serif;
+    font-size: 54px;
+    line-height: 81px;
+    color: #2F327D;
+}
+.main-text_small{
+    font-family: "Poppings", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    color: #464646;
+}
+.button_play{
+    background: none;
+    cursor: pointer;
+    border: 0;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #252641;
+}
+
+/* размер кнопки плей, как сделать оранжевую штуку в шапке и как привезти к общему виду чтоб по строчке*/
