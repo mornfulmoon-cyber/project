@@ -73,5 +73,20 @@
     font-weight: 400;
     color: #252641;
 }
+.button_play img{
+    width: 80px;
+    height: 80px;
+}
 
-/* размер кнопки плей, как сделать оранжевую штуку в шапке и как привезти к общему виду чтоб по строчке*/
+.nav_list{
+    list-style: none;
+    
+}
+.nav_list a{
+    text-decoration: none;
+    color: #252641;
+}
+.nav_list a:hover{
+    text-decoration: underline;
+    color: #2F327D;
+}
