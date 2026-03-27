@@ -68,14 +68,18 @@
     background: none;
     cursor: pointer;
     border: 0;
+    padding: 0;
+    display: inline-flex;
     align-items: center;
     font-size: 24px;
     font-weight: 400;
     color: #252641;
+    gap: 8px;
 }
 .button_play img{
     width: 80px;
     height: 80px;
+    display: block;
 }
 
 .nav_list{
