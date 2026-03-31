@@ -6,10 +6,8 @@
 }
 .button_whitе{
     background-color: #FFFFFF;
-    width: 160px;
-    height: 60px;
 
-    padding: 0;
+    padding: 13px, 49px, 14px, 50px;
     border: 0;
     border-radius: 80px;
 
@@ -20,10 +18,8 @@
 }
 .button_orange{
     background-color: #F48C06;
-    width: 160px;
-    height: 60px;
 
-    padding: 12px 18px;
+    padding: 13px 36px 14px 37px;
     border: 0;
     border-radius: 80px;
 
@@ -34,10 +30,8 @@
 }
 .button_orangeJoin{
     background-color: #F48C06;
-    width: 220px;
-    height: 80px;
 
-    padding: 12px 18px;
+    padding: 22px 38px;
     border: 0;
     border-radius: 80px;
 
@@ -67,10 +61,12 @@
 .button_play{
     background: none;
     cursor: pointer;
+
     border: 0;
     padding: 0;
     display: inline-flex;
     align-items: center;
+
     font-size: 24px;
     font-weight: 400;
     color: #252641;
