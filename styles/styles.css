@@ -40,17 +40,16 @@
     color: #FFFFFF;
     cursor: pointer;
 }
-.main-text_big_orange{
-    font-family: "Poppings", Arial, sans-serif;
-    font-size: 54px;
-    line-height: 81px;
+.main-text_o{
     color: #F48C06;
 }
-.main-text_big_blue{
+.main-text_b{
+    color: #2F327D;
+}
+.main-text{
     font-family: "Poppings", Arial, sans-serif;
     font-size: 54px;
     line-height: 81px;
-    color: #2F327D;
 }
 .main-text_small{
     font-family: "Poppings", Arial, sans-serif;
