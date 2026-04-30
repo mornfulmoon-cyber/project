@@ -48,6 +48,7 @@
 }
 .main-text_b{
     color: #2F327D;
+    text-align: left;
 }
 .main-text_darkb{
     color: #252641;
@@ -67,12 +68,14 @@
     line-height: 160%;
     color: #696984;
     font-weight: 400;
+    text-align: center;
 }
 .tittle-text{
     font-family: "Poppins", Arial, sans-serif;
     font-size: 40px;
     line-height: 180%;
     font-weight: 700;
+    text-align: center;
 }
 .text-center{
     display: flex;
@@ -281,6 +284,7 @@
     list-style: none;
     gap: 80;
     justify-content: center;
+    margin: 50px;
 }
 .section-1_conteiner{
     margin: 0 auto;
