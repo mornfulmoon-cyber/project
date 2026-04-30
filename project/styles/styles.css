@@ -67,14 +67,16 @@
     line-height: 160%;
     color: #696984;
     font-weight: 400;
-    text-align: center;
 }
 .tittle-text{
     font-family: "Poppins", Arial, sans-serif;
     font-size: 40px;
     line-height: 180%;
     font-weight: 700;
-    text-align: center;
+}
+.text-center{
+    display: flex;
+    align-items: center;
 }
 .tittle-text-s{
     font-family: "Poppins", Arial, sans-serif;
@@ -124,7 +126,7 @@
     display: block;
 }
 .button_ramka{
-    background: #FFFFFF;
+    background: transparent;
 
     padding: 19px 38px 18px 38px;
     border: 1px solid #F48C06;
@@ -133,6 +135,30 @@
     font-size: 22px;
     font-weight: 500;
     color: #F48C06;
+    cursor: pointer;
+}
+.button_ramka1{
+    background: transparent;
+
+    padding: 19px 38px 18px 38px;
+    border: 1px solid #FFFFFF;
+    border-radius: 80px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button_blue{
+    background-color: #23BDEE;
+
+    padding: 13px 36px 14px 37px;
+    border: 0;
+    border-radius: 80px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
     cursor: pointer;
 }
 .button-subscribe{
@@ -146,6 +172,46 @@
     font-weight: 500;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.skilline-cards{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 100px;
+    position: relative;
+}
+.skilline-card{
+    position: relative;
+}
+.card-content{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 132px 154px 123px;
+    z-index: 2;
+}
+.classroom-sectoin{
+    padding: 160px 186px;
+}
+.classroom-content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 186px;
+    padding-right: 186px;
+    gap: 68px;
+    flex-wrap: wrap;
+}
+.classroom-text{
+    flex: 1;
+}
+.classroom-img{
+    flex: 1;
 }
 .email-input{
     background: transparent;
