@@ -1,3 +1,7 @@
+ul{
+    list-style-type: none;
+}
+
 .menu-link{
     font-family: "Poppins", Arial, sans-serif;
     font-size: 22px;
@@ -61,6 +65,7 @@
     font-size: 54px;
     line-height: 81px;
     font-weight: 700;
+    text-align: center;
 }
 .hiro-text{
     font-family: "Poppins", Arial, sans-serif;
@@ -198,17 +203,14 @@
     padding: 132px 154px 123px;
     z-index: 2;
 }
-.classroom-sectoin{
-    padding: 160px 186px;
-}
-.classroom-content{
+.classroom-conteiner{
+    display: grid; 
+    grid-template-columns: 730px 1fr;
+    column-gap: 67px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    padding-left: 186px;
-    padding-right: 186px;
-    gap: 68px;
-    flex-wrap: wrap;
+    width: 1547px;
+    
+   
 }
 .classroom-text{
     flex: 1;
@@ -347,4 +349,11 @@
   content: "|";
   margin-left: 12px;
   color: #696984;
+}
+.features-conteiner{
+    width: 1603px;
+    display: grid;
+    grid-template-columns: 896px 1fr;
+    column-gap: 146px;
+    margin: 0 auto;
 }
