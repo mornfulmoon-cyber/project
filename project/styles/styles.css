@@ -207,7 +207,7 @@ ul{
     display: grid; 
     grid-template-columns: 730px 1fr;
     column-gap: 67px;
-    margin: 0 auto;
+    margin: 160px auto;
     width: 1547px;
     
    
@@ -353,7 +353,13 @@ ul{
 .features-conteiner{
     width: 1603px;
     display: grid;
-    grid-template-columns: 896px 1fr;
+    grid-template-columns: 1fr 545px;
     column-gap: 146px;
     margin: 0 auto;
+}
+.text-asssesments{
+    padding-top: 136px;
+}
+.OurFeatures-cards{
+    
 }
