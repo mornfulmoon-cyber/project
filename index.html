@@ -7,11 +7,13 @@
     <link rel = "stylesheet" href = "styles/styles.css">
     <link rel = "stylesheet" href = "styles/fonts.css">
 </head>
+
 <body>
     <header  class="header_container">
         <div class="nav_container">
             <img src="images/skillineLOGO.svg" alt="Логотип" width="150" height="83">
             <nav class="menu-link">
+
                 <ul class = "nav_list">
                     <li><a href = "#"> Home </a></li>
                     <li><a href = "#"> Careers </a></li>
@@ -23,6 +25,11 @@
                 <button class = "button_white">Login</button>
                 <button class = "button_orange">Sign Up</button>
             </div>
+            <button class="burger_menu" id="burgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
         </div>
         <div class="banner_container">
             <div class="banner_text_container">
@@ -43,7 +50,7 @@
                 </div>
             </div>
             <img class="banner__image" src="images/header-pic.png" 
-            alt="девочка с папками" width="911" height="892">
+            alt="девочка с папками" >
         </div>
     </header>
 
@@ -126,13 +133,15 @@
             </div>
         </section>
         <section class="classroom-conteiner">
-            <div class="classroom-text">
+            <div class="classroom-text1">
                 <h2 class="tittle-text_left">
                     <span class="main-text_b">Everything you can do in a physical classroom, </span>
                     <span class="main-text_o">you can do with Skilline</span>
                 </h2>
-                <p class="hiro-text" >Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
-                <a class="hiro-text" href="#">Learn more</a>
+                <div class="hiro-text">
+                    <p >Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
+                    <a class="news_tag" href="#">Learn more</a>
+                </div>
             </div>
             <img class="classroom-img" src="images/You_Can_Do_With_Skilline.png" alt="You can">
         </section>
@@ -146,7 +155,7 @@
                 <p class="text-center">This very extraordinary feature, can make learning activities more efficient</p>
             </div>
             <div class="features_card">
-                <img src="images/call_people.png" alt="call_people">
+                <img class="classroom-img" src="images/call_people.png" alt="call_people">
                 <div class="features_side_right">
                     <h2 class="tittle-text" style="text-align: left;">
                         <span class="main-text_b">A </span>
@@ -156,19 +165,19 @@
                     <div class="features_list">
                         <div class="features_list_items">
                             <div class="features_icon">
-                                <img src="images/square.svg" alt="square" >
+                                <img src="images/square.svg" alt="square" class="features_card_img">
                             </div>
                              <p class="hiro-text">Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
                         </div>
                         <div class="features_list_items">
                             <div class="features_icon">
-                                <img src="images/2square.svg" alt="square">
+                                <img src="images/2square.svg" alt="square" class="features_card_img">
                             </div>
                             <p class="hiro-text">TA’s and presenters can be moved to the front of the class.</p>
                         </div>
                         <div class="features_list_items">
                             <div class="features_icon">
-                                <img src="images/users.svg" alt="users">
+                                <img src="images/users.svg" alt="users" class="features_card_img">
                             </div>
                             <p class="hiro-text" >Teachers can easily see all students and class data at one time.</p>
                         </div>
@@ -177,9 +186,9 @@
             </div>
         </section>
 
-        <section>
+        <section class="classroom-section">
             <div class="classroom-conteiner">
-                <div class="classroom-text" style="padding-top: 189px">
+                <div class="classroom-text">
                     <h2 class="tittle-text" style="text-align: left">
                         <span class="main-text_o">Tools </span>
                         <span class="main-text_b">For Teachers And Learners</span>
@@ -190,62 +199,67 @@
             </div>
         </section>
 
-        <section class = classroom-conteiner>
-            <img src="images/qwizz.png" alt="qwizz">
-            <div class="text-asssesments">
-                <h1 class="tittle-text " style="text-align: left">
-                    <span class="main-text_b">Assessments, </span>
-                    <span class="main-text_o">Quizzes</span>
-                    <span class="main-text_b">, Tests</span></h1>
-                <h2 class="hiro-text " style="text-align: left">Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook.</h2>
+        <section class = "classroom-section">
+            <div class="classroom-conteiner">
+                <img class="classroom-img" src="images/qwizz.png" alt="qwizz">
+                <div class="classroom-text">
+                    <h1 class="tittle-text" style="text-align: left;">
+                        <span class="main-text_b">Assessments, </span>
+                        <span class="main-text_o">Quizzes</span>
+                        <span class="main-text_b">, Tests</span></h1>
+                    <h2 class="hiro-text " >Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook.</h2>
+                </div>
             </div>
+
         </section>
 
-        <section class="classroom-conteiner">
-            <div class="text-align: left">
-                <h2 class="tittle-text" style="padding-top: 152px; text-align: left">
+        <section class = "classroom-section">
+            <div class="classroom-conteiner">
+            <div class="classroom-text">
+                <h2 class="tittle-text" style="text-align: left;">
                     <span class="main-text_o">Class Management </span>
                     <span class="main-text_b">Tools for Educators</span>
                 </h2>
-                <h2 class="hiro-text" style="text-align: left;">Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</h2>
+                <h2 class="hiro-text" >Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</h2>
             </div>
-            <img src="images/raiting.png" alt="raiting" style="max-width: 861px; width: 100%;">
+            <img class="classroom-img" src="images/raiting.png" alt="raiting">
         </section>
 
-        <section class="classroom-conteiner">
-            <img src="images/1-on-1.png" alt="1-on-1">
-            <div class="classroom-text">
-                <h2 class="tittle-text" style="padding-top: 116px; text-align: left;">
-                    <span class="main-text_b">One-on-One </span>
-                    <span class="main-text_o">Discussions</span>
-                </h2 >
-                <h2 class="hiro-text " style = "text-align: left;">Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</h2>
+        <section class = "classroom-section">
+            <div class="classroom-conteiner">
+                <img class="classroom-img" src="images/1-on-1.png" alt="1-on-1">
+                <div class="classroom-text">
+                    <h2 class="tittle-text">
+                        <span class="main-text_b">One-on-One </span>
+                        <span class="main-text_o">Discussions</span>
+                    </h2 >
+                    <h2 class="hiro-text " st>Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</h2>
+                </div>
             </div>
         </section>
 
 
         <section class="integrations-conteiner">
-            <img src="images/oneDrive_box_gDrive_T.svg" alt="OneDrive_googledrive">
-            <div>
+            <img class="integrations-img" src="images/oneDrive_box_gDrive_T.svg" alt="OneDrive_googledrive">
+            <div class="integrations-text">
                 <h2 class="hiro-text">INTEGRATIONS</h2>
                 <h2 class="tittle-text_left">
                     <span class="main-text_b">200+ educational tools and platform </span>
                     <span class="main-text_o">integrations</span>
                 </h2>
                 <p class="hiro-text">Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.</p>
-                <button class="button_ramka">See All Integrations</button>
+                <button class="button_ramka_o">See All Integrations</button>
             </div>  
         </section>
 
         <section class="testimonial_container">
             <div class="testimonial_article">
-                <div class="">
                     <h2 class="hiro-text">TESTIMONIAL</h2>
                     <h3 class="main-text main-text_b">What They Say?</h3>
                     <p class="hiro-text">Skilline has got more than 100k positive ratings from our users around the world.</p>
                     <p class="hiro-text">Some of the students and teachers were greatly helped by the Skilline.</p>
                     <p class="hiro-text">Are you too? Please give your assessment</p>
-                    <button class="button_ramka">Write your assessment</button>
+                    <button class="button_ramka_o tittle_text22px">Write your assessment</button>
                 </div>
                 <div class="testimonial_card">
                     <img src="images/what_they_say.png" alt="Gloria Rose">
