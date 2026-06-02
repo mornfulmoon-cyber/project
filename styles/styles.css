@@ -105,6 +105,7 @@ ul{
     max-height: 1118px;
     margin: 0 auto;
 
+    /*background-color: #FFF2E1;*/
     mask-image:url("../images/banner-mask.svg");
     mask-position: center bottom;
     mask-repeat: no-repeat; 
@@ -170,9 +171,10 @@ ul{
 }
 .banner__buttons {
     display: flex;
-    gap: 81px;
+    gap: 50px;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .button_orangeJoin{
@@ -210,8 +212,9 @@ ul{
     color: #2F327D;
 }
 .button_play img{
-    width: 80px;
-    height: 80px;
+    max-width: 80px;
+
+    max-height: 80px;
     display: block;
 }
 
@@ -377,7 +380,7 @@ ul{
     z-index: 2;
 }
 .classroom-section {
-    margin: 160px auto;
+    margin: 160px auto 0;
     max-width: 1547px;
     width: 100%;
     padding: 0 20px;
@@ -405,12 +408,14 @@ ul{
     width: 100%;
     justify-self: start;
     padding-top: 100px;
+    text-align: left;
 }
 .classroom-text1{
     max-width: 548px;
     width: 100%;
     justify-self: start;
     padding-bottom: 0;
+    text-align: left;
 }
 .tittle-text_left{
     font-family: "Poppins", Arial, sans-serif;
@@ -505,9 +510,13 @@ ul{
 }
 .integrations-img{
     width: 100%;
-    height: auto;
     max-width: 530px; 
     justify-self: center;
+
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    justify-content: center;
 }
 
 .testimonial_container{
@@ -637,7 +646,12 @@ ul{
     display: flex;
     gap: 30px;
     width: 100%;
+    flex-wrap: wrap;
     
+}
+.news_card_text{
+    max-width: 911px;
+    width: 100%;
 }
 .news_tag {
     display: inline-block;
@@ -857,6 +871,7 @@ html {
 }
 
 
+
 .burger_menu {
     display: none;
     flex-direction: column;
@@ -949,12 +964,24 @@ html {
     }
 
     .header_buttons {
-        gap: 15px;
+        display: none;
     }
 
     .button_white, .button_orange {
         font-size: 18px;
-        padding: 10px 25px;
+        padding: 50%;
+
+    }
+    .news_card_text{
+        max-width: 300px;
+        width: 70%;
+    }
+    .button_orangeJoin{
+        font-size: 90%;
+    }
+    .button_play{
+        font-size: 90%;
+        max-width: 70%;
     }
     .header_container {
         max-height: none;
@@ -1068,7 +1095,7 @@ html {
     .integrations-img, 
     .features_card_img {
         justify-self: center;
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .classroom-text, 
@@ -1078,6 +1105,9 @@ html {
         max-width: 100%;
         justify-self: center;
         padding-top: 0;
+        justify-content: center;
+        text-align: center;
+
     }
 
     .tittle-text_left {
