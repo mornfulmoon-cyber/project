@@ -157,7 +157,7 @@
             <div class="features_card">
                 <img class="classroom-img" src="images/call_people.png" alt="call_people">
                 <div class="features_side_right">
-                    <h2 class="tittle-text" style="text-align: left;">
+                    <h2 class="tittle-text">
                         <span class="main-text_b">A </span>
                         <span class="main-text_o">user interface </span>
                         <span class="main-text_b">designed for the classroom</span>
@@ -189,7 +189,7 @@
         <section class="classroom-section">
             <div class="classroom-conteiner">
                 <div class="classroom-text">
-                    <h2 class="tittle-text" style="text-align: left">
+                    <h2 class="tittle-text" >
                         <span class="main-text_o">Tools </span>
                         <span class="main-text_b">For Teachers And Learners</span>
                     </h2>
@@ -203,7 +203,7 @@
             <div class="classroom-conteiner">
                 <img class="classroom-img" src="images/qwizz.png" alt="qwizz">
                 <div class="classroom-text">
-                    <h1 class="tittle-text" style="text-align: left;">
+                    <h1 class="tittle-text">
                         <span class="main-text_b">Assessments, </span>
                         <span class="main-text_o">Quizzes</span>
                         <span class="main-text_b">, Tests</span></h1>
@@ -216,7 +216,7 @@
         <section class = "classroom-section">
             <div class="classroom-conteiner">
             <div class="classroom-text">
-                <h2 class="tittle-text" style="text-align: left;">
+                <h2 class="tittle-text">
                     <span class="main-text_o">Class Management </span>
                     <span class="main-text_b">Tools for Educators</span>
                 </h2>
@@ -296,21 +296,21 @@
                 <div class="news_sidebar">
                     <div class="news_card">
                         <img class="news_img2" src="images/ipadkid.png" alt="ipadkid">
-                        <div>
+                        <div class="news_card_text">
                             <h4 class="tittle_text22px">Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h4>
                             <p class="main_text20px">Class Technologies Inc., the company that created Class,...</p>
                         </div>
                     </div>
                     <div class="news_card">
                         <img class="news_img2" src="images/notebookmen.png" alt="notebookmen">
-                        <div>
+                        <div class="news_card_text">
                             <h4 class="tittle_text22px">Zoom’s earliest investors are betting millions on a better Zoom for schools</h4>
                             <p class="main_text20px">Zoom was never created to be a consumer product. Nonetheless, the...</p>
                         </div>
                     </div>
                     <div class="news_card">
                         <img class="news_img2" src="images/cat.png" alt="cat">
-                        <div>
+                        <div class="news_card_text">
                             <h4 class="tittle_text22px">Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h4>
                             <p class="main_text20px">This year, investors have reaped big financial returns from betting on Zoom...</p>
                         </div>
@@ -349,11 +349,11 @@
 
         
 </footer>
-<div id="loginModal" class="modal">
+<div class="modal modal-login">
     <div class="modal-content">
-        <span class="close-btn" data-modal="loginModal">&times;</span>
+        <span class="close-btn">&times;</span>
         <h2 class="modal-title">Login to an existing account</h2>
-        <form id="loginForm">
+        <form>
             <input type="email" class="modal-input" placeholder="Email" required>
             <input type="password" class="modal-input" placeholder="Password" required>
             <button type="submit" class="modal-submit-btn">Login</button>
@@ -361,19 +361,20 @@
     </div>
 </div>
 
-<div id="registerModal" class="modal">
+<div class="modal modal-registr">
     <div class="modal-content">
-        <span class="close-btn" data-modal="registerModal">&times;</span>
+        <span class="close-btn">&times;</span>
         <h2 class="modal-title">Sign Up</h2>
-        <form id="registerForm">
+        <form>
             <input type="text" class="modal-input" placeholder="First Name" required>
             <input type="text" class="modal-input" placeholder="Last Name" required>
             <input type="email" class="modal-input" placeholder="Email" required>
             <input type="password" class="modal-input" placeholder="Password" required>
-            <button type="submit" class="modal-submit-btn">Сreate an account</button>
+            <button type="submit" class="modal-submit-btn">Create an account</button>
         </form>
     </div>
 </div>
 <script src="scripts/script.js"></script>
+
 </body>
 </html> 
